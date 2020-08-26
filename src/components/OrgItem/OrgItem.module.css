@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  align-items: center;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+.img {
+  @apply shadow-sm;
+
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  margin-right: 0.8em;
+}

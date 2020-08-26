@@ -1,0 +1,21 @@
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+}
+.img {
+  max-width: 320px;
+  margin-bottom: 2em;
+}
+.heading {
+  @apply text-4xl mb-8;
+}
+.link {
+  @apply text-2xl text-primary-700 underline;
+}
+.link:hover {
+  @apply text-primary-600;
+}

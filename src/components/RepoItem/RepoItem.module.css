@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+}
+.stargazers {
+  @apply text-gray-800;
+
+  text-align: right;
+  flex: 0 1 auto;
+}
+.name {
+  @apply font-semibold;
+}
+.star {
+  height: 1em;
+  width: 1em;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 2.5px;
+  margin-top: -5px;
+}
